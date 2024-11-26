@@ -1,0 +1,60 @@
+.signup-section {
+  background-color: #f5f0e5;
+  background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 80px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.signup-bg {
+  background-image: url(sekil2.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+
+.inputs-signup {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.inputs-signup p {
+  margin: 0 !important;
+  font-family: "Roboto", sans-serif;
+}
+
+.inputs-signup a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.inputs-signup span {
+  padding-top: 20px;
+}
+
+.signup-section h2 {
+  font-family: "Libre Baskerville", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.signup-section input {
+  border: none;
+  padding-left: 10px;
+  border-bottom: 2px solid #ccc;
+  width: 39%;
+  background-color: #f5f0e5;
+  font-size: 20px;
+  padding-bottom: 10px;
+  color: #272b2d;
+}

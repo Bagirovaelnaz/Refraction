@@ -1,0 +1,191 @@
+.all-bag {
+  background-color: #f5f0e5;
+  background-size: cover;
+  padding-top: 110px;
+  padding-bottom: 170px;
+}
+
+.bag-section {
+  background-color: transparent;
+  background-size: cover;
+  height: auto;
+}
+
+.table {
+  text-align: center;
+  padding-top: 40px;
+  background-color: transparent;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
+.table th, .table td {
+  padding: 12px;
+}
+
+#basket-img {
+  height: 200px;
+  filter: brightness(102.5%);
+  max-width: 100%; /* Ensure image is responsive */
+}
+
+#btn-bag {
+  background-color: #f5f0e5;
+  color: #272b2d;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  opacity: 0.8;
+  padding: 5px 10px; /* Adjust padding for smaller screens */
+}
+
+#bag-btn {
+  opacity: 0.8;
+  background-color: #f5f0e5;
+  color: #272b2d;
+  border: none;
+  font-family: "Roboto", sans-serif;
+}
+
+#title {
+  font-family: "Libre Baskerville", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  background-color: #f5f0e5;
+  opacity: 0.9;
+  color: #272b2d;
+  font-size: 18px;
+}
+
+.empty-bag-message {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Libre Baskerville", sans-serif;
+  font-size: 23px;
+}
+.empty-bag-message p{
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.start-browsing-btn {
+  padding: 10px 20px;
+  background-color: #c6be9e;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  border: 1px solid transparent;
+  border-radius: 0px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  cursor: pointer;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  overflow-y: hidden;
+}
+
+#enter {
+  overflow-y: hidden;
+  text-align: center;
+  font-family: "Libre Baskerville", sans-serif;
+}
+
+.modal-content {
+  background: #f5f0e5;
+  font-family: "Roboto", sans-serif;
+  padding: 20px;
+  width: 450px;
+  height: auto; /* Change to auto for responsive height */
+  max-width: 90%; /* Ensures modal fits on smaller screens */
+  border-radius: 8px;
+  position: relative;
+  text-align: center;  
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  overflow-y: hidden;
+}
+#bag-img{
+  background-color: transparent;
+}
+
+#bag-price{
+  background-color: transparent;
+}
+.btn-3 {
+  padding: 9px 12px;
+  background-color: #c6be9e;
+  color: #fff;
+  border: none;
+  margin-left: 30px;
+}
+
+#total {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-left: 130px;
+}
+
+/* Media Queries */
+@media (max-width: 800px) {
+  .table {
+    font-size: 14px; /* Smaller font for tables */
+  }
+
+  #basket-img {
+    height: 150px; /* Smaller images for medium screens */
+  }
+
+  #total {
+    margin-left: 20px; /* Adjust margins for smaller screens */
+  }
+}
+
+@media (max-width: 500px) {
+  .all-bag {
+    padding-top: 100px; /* Less padding for smaller screens */
+    padding-bottom: 100px;
+  }
+
+  .empty-bag-message {
+    font-size: 18px; /* Smaller font size */
+  }
+
+  .start-browsing-btn {
+    width: 100%; /* Full-width button */
+  }
+
+  .modal-content {
+    width: 90%; /* Full-width modal */
+    padding: 15px; /* Less padding for smaller screens */
+  }
+
+  #total {
+    font-size: 16px; /* Smaller total text */
+    margin-left: 0; /* Center total text */
+  }
+
+  #title {
+    font-size: 16px; /* Smaller title font */
+  }
+
+  .btn-3 {
+    margin-left: 0; /* Center the button on small screens */
+  }
+}

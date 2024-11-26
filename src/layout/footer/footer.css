@@ -1,0 +1,88 @@
+#logo-footer {
+  height: 50px;
+  margin-bottom: 27px;
+  margin-right: 20px;
+  margin-left: 40px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  padding: 40px 20px;
+  font-size: 17px;
+  width: 100%;
+}
+
+.f-shop {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 150px;
+  margin-left: 20px;
+  font-family: "Roboto", sans-serif;
+  color: #5f5b31;
+  align-items: start;
+}
+
+#basliq {
+  font-style: italic;
+  font-family: "Libre Baskerville", sans-serif;
+  font-weight: 100;
+  color: #0a0908;
+}
+
+.all-footer {
+  background-color: #f5f0e5;
+}
+
+.f-shop a {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.f-shop a:hover {
+  opacity: 0.8;
+}
+
+.hr {
+  width: 100%;
+  background-color: #f5f0e5;
+}
+
+@media (max-width: 800px) {
+  .footer {
+    grid-template-columns: 1fr 1fr; /* 2 columns */
+    padding-bottom: 60px;
+  }
+  #logo-footer {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .f-shop {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+/* Responsive styles for screens up to 500px */
+@media (max-width: 500px) {
+  .footer {
+    grid-template-columns: 1fr; /* 1 column */
+    padding-bottom: 40px;
+    text-align: center;
+  }
+
+  #logo-footer {
+    margin: 0 auto;
+  }
+
+  .f-shop {
+    align-items: center;
+    margin: 20px 0; /* Adds spacing between each section */
+    width: 100%; /* Full width for better readability */
+  }
+
+  .hr {
+    padding: 0 20px;
+  }
+}

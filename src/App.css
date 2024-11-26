@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none !important;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit !important;
+}
+p {
+  margin-bottom: 0px !important;
+}
+
+.dark .nav {
+  background-color: #181818;
+  color: #e0e0e0;
+  filter: brightness(1.2);
+}
+
+.dark .container-home {
+  background-color: #333;
+  color: #e0e0e0;
+}
+
+.dark .arrivals {
+  background-color: #333;
+  color: #e0e0e0;
+}
+
+.dark .grid img{
+opacity: 1;
+}
+
+.dark .arrival-t-b {
+  color: #e0e0e0;
+  filter: brightness(1.2);
+}
+.dark #basliq {
+  color: #e0e0e0;
+  filter: brightness(1.2);
+}
+.dark h1 {
+  color: #e0e0e0;
+  filter: brightness(1.2);
+}
+.dark .hr2 {
+  background-color: #333;
+}
+
+.dark .hr {
+  background-color: #181818;
+  color: #e0e0e0;
+}
+.dark .footer {
+  background-color: #181818;
+}
+.dark .f-shop {
+  color: #e0e0e0;
+}
+
+.Toastify__toast {
+  background-color: #c6be9e !important;
+  color: #fff !important;
+}
+.Toastify__progress-bar--success {
+  background-color: #fff !important;
+}
+.Toastify__toast-icon {
+  display: none !important;
+}
+
+.star-rating .react-star-ratings__star svg {
+  display: none;
+  overflow-y: hidden;
+}
+
+.star-rating .react-star-ratings__star:hover svg {
+  display: none;
+  overflow-y: hidden;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.widget-svg {
+  appearance: none;
+  margin: 0;
+  overflow-y: hidden;
+}

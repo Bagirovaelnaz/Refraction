@@ -1,0 +1,119 @@
+.button-6 {
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-6:hover {
+  opacity: 0.9;
+}
+
+.error-section {
+  position: relative;
+  z-index: 0;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  background-color: #f5f0e5;
+  background-image: url(sekil1.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+}
+.button-2{
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #c6be9e;
+  border: 1px solid transparent;
+  border-radius: 0px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  justify-content: center;
+  line-height: 1.25;
+  margin-top: 20px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  text-align: center;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  height: 50px;
+  width: 300px;
+  overflow-y: hidden;
+}
+.error-t-b {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 150px;
+}
+.error-section h2{
+  font-family: "Libre Baskerville", sans-serif;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 30px;
+  overflow-y: hidden;
+}
+.error-t-b h1 {
+  font-family: "Libre Baskerville", sans-serif;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.error-t-b p {
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 5px;
+}
+
+.error {
+  width: 100%;
+  height: 100vh;
+  background-color: #43281858;
+}
+
+.products-thnk{
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+  margin-left: 170px;
+  color: #ffffff;
+
+}
+.item-thanks img{
+  height: 250px;
+}
+.item-thanks:hover{
+  opacity: 0.8;
+}
+.item-thanks p{
+  font-family: "Libre Baskerville", sans-serif;
+
+}

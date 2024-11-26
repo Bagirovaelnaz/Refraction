@@ -1,0 +1,334 @@
+.home-section {
+  background-image: url("https://assets.website-files.com/606a817e5976f2ad842e21e6/606b4f98b7ce239e935be095_RefractionCover.png");
+  background-color: #f5f0e5;
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+#about-us {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  padding-top: 30px;
+  font-size: 19px;
+  margin-left: 50px;
+}
+#about-us:hover {
+  opacity: 0.8;
+}
+.container-home {
+  padding-top: 200px;
+  position: relative;
+  color: #272b2d;
+  height: auto;
+  width: 100%;
+  background-color: #f5f0e5;
+}
+
+#e-yazi {
+  height: auto;
+  width: 250px;
+  font-size: 35px;
+  font-style: italic;
+  line-height: 1.3em;
+  font-weight: 500;
+  text-align: right;
+  margin-right: 30px;
+}
+
+.earrings-box img {
+  filter: brightness(103%);
+  width: 100%;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.earrings-box {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  padding-left: 200px;
+  padding-bottom: 200px;
+}
+
+#e-link {
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  color: #222;
+  opacity: 0.8;
+  transition: color 0.3s ease, opacity 0.3s ease;
+}
+#e-link:hover {
+  color: #555;
+  opacity: 1;
+}
+
+.necklace-box {
+  display: grid;
+  grid-template-columns: 1fr 2fr 0fr;
+  padding-bottom: 200px;
+  margin-left: 230px;
+}
+
+.necklace-box h3 {
+  font-size: 23px;
+  line-height: 1.4em;
+  font-style: italic;
+  font-weight: 400;
+  width: 400px;
+  margin-left: 50px;
+}
+
+.necklace-box img {
+  filter: brightness(103%);
+  height: auto;
+  width: 100%;
+}
+.ring-box {
+  display: grid;
+  grid-template-columns: 1.2fr 1.3fr 1fr;
+  margin-left: 250px;
+}
+.ring-box span {
+  font-size: 32px;
+  font-style: italic;
+  padding-bottom: 50px;
+  width: 10px;
+}
+
+.ring-box img {
+  filter: brightness(100%);
+  height: auto;
+  width: 100%;
+  padding-right: 60px;
+  margin-right: 50px;
+}
+.hr2 {
+  width: 100%;
+  padding-right: 180px;
+  margin-bottom: 30px;
+  background-color: #f5f0e5;
+}
+
+.arrivals {
+  background-color: #f5f0e5;
+  padding-top: 150px;
+  height: auto;
+  padding-left: 200px;
+  padding-bottom: 100px;
+}
+
+.arrival-t-b {
+  width: 340px;
+  color: #272b2d;
+  font-family: "Roboto", sans-serif;
+  opacity: 0.8;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+.arrivals span {
+  margin-top: 18px;
+}
+
+.arrival-img {
+  width: 99%;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  width: 89%;
+  font-family: "Roboto", sans-serif;
+  opacity: 0.8;
+  line-height: 1.4em;
+}
+
+#h-img {
+  height: auto;
+  width: 100%;
+}
+
+#basliq {
+  overflow-y: hidden;
+}
+.yazi-1 {
+  font-family: "Libre Baskerville", sans-serif;
+  font-size: 65px;
+  line-height: 1.25em;
+  opacity: 1;
+  text-align: center;
+  font-weight: 400;
+  font-style: italic;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.grid img {
+  filter: brightness(103%);
+}
+.grid img:hover {
+  opacity: 0.6; /* Changes the opacity on hover */
+}
+
+@media (max-width: 800px) {
+  .home-section {
+    background-position: center;
+    height: 60vh;
+  }
+
+  .yazi-1 {
+    font-size: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .container-home {
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .necklace-box h3 {
+    margin-left: 30px;
+  }
+
+  .earrings-box,
+  .necklace-box,
+  .ring-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 100px;
+  }
+
+  #e-yazi {
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .earrings-box img,
+  .necklace-box img,
+  .ring-box img {
+    height: 300px;
+  }
+
+  .necklace-box h3 {
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .home-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .arrival-img {
+    height: 20px;
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .arrivals {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 80px;
+    padding-bottom: 0px;
+  }
+
+  #h-img {
+    height: 250px;
+    width: 100%;
+  }
+}
+
+/* 500px ekran genişliyi üçün */
+@media (max-width: 500px) {
+  .home-section {
+    background-position: center;
+    height: 50vh;
+  }
+
+  .yazi-1 {
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .container-home {
+    padding-top: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .earrings-box,
+  .necklace-box,
+  .ring-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 50px;
+  }
+
+  #e-yazi {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .earrings-box img,
+  .necklace-box img,
+  .ring-box img {
+    height: 200px;
+  }
+
+  .necklace-box h3 {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .arrival-img {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  /* New Arrivals bölməsində 2 sütunlu düzülüş */
+  .home-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .arrivals {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+
+  #h-img {
+    height: 200px;
+    width: 100%;
+  }
+}

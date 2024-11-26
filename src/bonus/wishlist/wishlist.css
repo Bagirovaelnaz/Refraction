@@ -1,0 +1,196 @@
+.wishlist {
+  background-color: #f5f0e5;
+  padding-top: 130px;
+  padding-left: 10px;
+  padding-right: 10px; /* Add right padding for smaller screens */
+}
+
+.wishlist h1 {
+  font-family: "Libre Baskerville", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  overflow-y: hidden;
+  margin-left: 10px;
+}
+.button-6 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #c6be9e;
+  border: 1px solid transparent;
+  border-radius: 0px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  justify-content: center;
+  line-height: 1.25;
+  margin-top: 20px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  text-align: center;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  height: 50px;
+  width: 300px;
+  overflow-y: hidden;
+}
+
+
+/* Base grid styles */
+.products-wish {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 20px; /* Add space between items */
+  margin: 20px 0; /* Margin for top and bottom */
+  background-color: transparent;
+}
+#wish-btn {
+  opacity: 0.8;
+  background-color: transparent;
+  color: #272b2d;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  padding-left: 180px;
+}
+.wishlist-item {
+  background-color:#d8d1bf;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+}
+
+.wishlist-item img {
+  height: 250px; 
+  width: auto; 
+  filter: brightness(102.5%);
+}
+
+.wishlist-item h3 {
+  font-family: "Libre Baskerville", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px; 
+  padding-top: 8px;
+}
+
+.button-6, .button-7, .clear-btn {
+  width: 100%; 
+  margin-top: 10px; 
+}
+
+.wishlist .wish-empty {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  padding-top: 100px;
+}
+.clear-btn {
+  margin-left: 650px;
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #c6be9e;
+  border: 1px solid transparent;
+  border-radius: 0px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  justify-content: center;
+  line-height: 1.25;
+  margin-top: 20px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  text-align: center;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  height: 50px;
+  width: 200px;
+  margin-top: 50px;
+  overflow-y: hidden;
+}
+.button-7 {
+  margin-left: 650px;
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #c6be9e;
+  border: 1px solid transparent;
+  border-radius: 0px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  justify-content: center;
+  line-height: 1.25;
+  margin-top: 20px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  text-align: center;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  height: 50px;
+  width: 200px;
+  overflow-y: hidden;
+  margin-bottom: 100px;
+}
+/* Responsive adjustments for 800px */
+@media (max-width: 800px) {
+  .wishlist h1 {
+    font-size: 28px; /* Adjust font size for heading */
+  }
+
+  .wishlist-item img {
+    height: 220px; /* Reduce image height */
+  }
+
+  .wishlist-item h3 {
+    font-size: 18px; /* Smaller font size for titles */
+  }
+
+  .products-wish {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+  }
+
+  .clear-btn, .button-7 {
+    margin-left: 0; /* Reset margin for center alignment */
+  }
+}
+
+/* Responsive adjustments for 500px */
+@media (max-width: 500px) {
+  .wishlist h1 {
+    font-size: 24px; /* Smaller font size for heading */
+    text-align: center; /* Center-align text */
+  }
+
+  .wishlist-item img {
+    height: 180px; /* Further reduce image height */
+  }
+
+  .wishlist-item h3 {
+    font-size: 16px; /* Smaller font size for titles */
+  }
+
+  .products-wish {
+    grid-template-columns: 1fr; /* 1 column for small screens */
+  }
+
+  .button-6, .button-7, .clear-btn {
+    height: 45px; /* Adjust button height for smaller screens */
+  }
+}

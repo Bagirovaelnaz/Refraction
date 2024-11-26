@@ -1,0 +1,142 @@
+body {
+  background-color: #f5f0e5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.add-product-button {
+  background-color: #c6be9e;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 8px; /* Daha aydın box-shadow */
+  transition: background-color 0.3s ease;
+}
+
+.dashboard {
+  margin: 20px;
+  margin-top: 100px;
+}
+
+.dashboard h3 {
+  font-family: "Libre Baskerville", sans-serif;
+  font-size: 18px;
+  color: #333;
+  margin-top: 9px;
+}
+
+.product-form-title {
+  font-family: "Libre Baskerville", sans-serif;
+  font-size: 28px;
+  color: #333;
+  margin-top: 9px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.dashboard img {
+  margin-right: 15px;
+  height: 280px;
+  filter: brightness(103%);
+}
+
+.dashboard .product {
+  background-color: #d8d1bf;
+  text-align: center;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 100%;
+  background-color: transparent;
+  margin: 20px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.items {
+  background-color: #d8d1bf;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 8px; /* Daha aydın box-shadow */
+  text-align: center;
+  height: auto;
+  width: auto;
+}
+
+.edit-delete button {
+  background-color: #c6be9e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 20px; /* Daha kiçik ölçüdə */
+  margin-left: 5px;
+  margin-top: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard button:hover {
+  background-color: #b09a7e;
+}
+
+.edit-form {
+  background-color: #d8d1bf;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+
+}
+
+.edit-form div {
+  margin-bottom: 15px;
+}
+
+.edit-form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.edit-form input,
+.edit-form textarea {
+  width: 70%; /* Kiçildilmiş ölçü */
+  padding: 8px; /* Daha kiçik padding */
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  background-color: #f5f0e5; /* Rəng uyğunlaşdırıldı */
+}
+
+.edit-form button {
+  background-color: #c6be9e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+  font-family: "Roboto", sans-serif;
+
+}
+
+.edit-form button:hover {
+  background-color: #b09a7e;
+}

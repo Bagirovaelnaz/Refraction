@@ -1,0 +1,373 @@
+.about-section {
+  position: relative;
+  z-index: 0;
+  padding: 80px 35px;
+  background-color: #f5f0e5; /* Light mode background */
+  color: #272b2d; /* Light mode text color */
+}
+
+/* Light mode styles */
+.about-section-light-mode {
+  background-color: #f5f0e5;
+  color: #272b2d;
+}
+
+/* Dark mode styles */
+.about-section-dark-mode {
+  background-color: #333;
+  color: #f5f5f5;
+}
+#deliberate-light-mode {
+  opacity: 0.8;
+  font-size: 19px;
+  line-height: 1.4em;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  display: block;
+  width: 350px;
+  color: #fff;
+  padding-right: 30px;
+}
+.first-section-about {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center; 
+  gap: 30px; 
+  padding-top: 100px;
+}
+.first-section-about div{
+  width: 400px;
+}
+.first-section-about img {
+  filter: brightness(102.5%);
+  height: 500px;
+}
+
+.first-section-about h1 {
+  font-family: "Libre Baskerville", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+
+#deliberate-dark-mode {
+  opacity: 0.8;
+  font-size: 19px;
+  line-height: 1.4em;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  display: block;
+  width: 350px;
+  color: #333;
+  padding-right: 30px;
+}
+
+.value-box {
+  display: flex;
+  flex-direction: column; /* Stack title and values vertically */
+  align-items: center;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.value-box h2 {
+  font-style: italic;
+  font-family: "Libre Baskerville", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  margin-bottom: 20px;
+  overflow-y: hidden;
+}
+
+/* Grid layout for values */
+.for-values {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns for larger screens */
+  gap: 30px;
+  max-width: 900px; /* Limits the width of the grid */
+  width: 100%; /* Makes the grid responsive */
+  margin: 0 auto;
+}
+
+.for-values h4 {
+  font-family: "Libre Baskerville", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.for-values p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  opacity: 0.8;
+  line-height: 1.4em;
+}
+
+/* Made By Hand Section */
+.made-hand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 100px 20px;
+  gap: 40px; /* Space between the image and text */
+}
+
+.made-hand img {
+  filter: brightness(102.5%);
+  max-width: 100%; /* Makes the image responsive */
+  height: auto;
+}
+
+.made-hand h2 {
+  font-family: "Libre Baskerville", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.made-hand p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px; /* Base font size */
+  line-height: 1.5;
+  opacity: 0.8;
+  max-width: 600px; /* Limit max width to improve readability */
+  margin: 0 auto; /* Center the text within the container */
+  text-align: center;
+}
+
+/* Partners Section */
+.partners {
+  background-color: #f5f0e5;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.partners h5 {
+  color: #272b2d;
+  font-size: 27px;
+  font-style: italic;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 17px;
+  padding-top: 10px;
+}
+
+/* Dark mode specific adjustments */
+.about-section-dark-mode .first-section-about img,
+.about-section-dark-mode .made-hand img {
+  filter: brightness(100%);
+}
+
+/* Dark mode specific adjustments */
+.dark-mode .accordion-body,
+.dark-mode .accordion-header .accordion-button {
+  background-color: #333;
+  color: #f5f5f5;
+  border-color: #555;
+}
+
+.dark-mode .faq h1,
+.dark-mode .partners h5 {
+  color: #f5f5f5;
+}
+
+.partners img {
+  padding-left: 250px;
+  padding-bottom: 10px;
+}
+
+.faq {
+  background-color: #f5f0e5;
+  height: auto;
+  padding-top: 10px;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 130px;
+  overflow-y: hidden;
+}
+.faq-dark-mode{
+  background-color: #333;
+}
+.faq h1 {
+  font-family: "Libre Baskerville", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  padding-top: 60px;
+  font-size: 34px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.accordion-header .accordion-button {
+  background-color: #f5f0e5;
+  color: #272b2d;
+  border: none !important;
+  box-shadow: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  width: 100%;
+  font-size: 20px;
+}
+
+.accordion-header .accordion-button:not(.collapsed) {
+  background-color: #f5f0e5;
+  color: #333;
+  width: 100%;
+  box-shadow: none;
+  border: none;
+}
+
+.accordion-body {
+  color: #555;
+  padding: 20px;
+  width: 100%;
+  box-shadow: none;
+  border: none !important;
+  background-color: #f5f0e5;
+  padding: 20px;
+  box-shadow: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.accordion-header .accordion-button:hover {
+  background-color: #f5f0e5;
+  color: #333;
+  box-shadow: none;
+  width: 100%;
+  border: none;
+}
+
+.accordion-container {
+  width: 80%; /* Adjust this width as desired */
+  margin: 0 auto; /* Centers the accordion container */
+}
+
+@media (max-width: 800px) {
+  .about-section {
+    padding: 50px 20px;
+  }
+
+  .first-section-about {
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .first-section-about h1 {
+    font-size: 24px;
+  }
+
+  #deliberate {
+    font-size: 13px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .value-box h2 {
+    font-size: 26px;
+  }
+
+  .for-values {
+    grid-template-columns: 1fr 1fr; /* Switch to 2 columns */
+    gap: 20px;
+  }
+
+  .for-values h4 {
+    font-size: 16px;
+  }
+
+  .for-values p {
+    font-size: 13px;
+    width: 90%;
+  }
+
+  .made-hand {
+    flex-direction: column; /* Stack image and text vertically */
+    gap: 20px;
+    padding: 50px 20px;
+  }
+
+  .made-hand h2 {
+    font-size: 24px; /* Reduce font size for smaller screens */
+  }
+
+  .made-hand p {
+    font-size: 14px; /* Smaller font size for 800px */
+    max-width: 90%; /* Adjust width for better fit */
+  }
+
+  .made-hand img {
+    max-width: 80%; /* Reduce image size for smaller screens */
+  }
+
+  .partners h5 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .faq {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .faq h1 {
+    font-size: 26px;
+  }
+
+  .accordion-container {
+    width: 95%; /* Make it a bit wider for better readability */
+    margin: 0 auto; /* Center it on the screen */
+  }
+
+  .accordion-header {
+    width: 100%;
+  }
+
+  .accordion-header .accordion-button {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .accordion-body {
+    font-size: 16px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .about-section {
+    padding: 30px 15px;
+  }
+
+  .first-section-about h1 {
+    font-size: 20px;
+  }
+
+  #deliberate {
+    font-size: 11px;
+    width: 90%;
+  }
+
+  .value-box h2 {
+    font-size: 22px;
+  }
+
+  .made-hand h2 {
+    font-size: 22px;
+  }
+
+  .partners h5 {
+    font-size: 20px;
+  }
+
+  .faq h1 {
+    font-size: 24px;
+  }
+}

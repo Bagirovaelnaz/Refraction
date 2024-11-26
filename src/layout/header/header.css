@@ -1,0 +1,75 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  background-color: #d8d1bf;
+  opacity: 0.8;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 2px solid #ccc; /* Üfüqi xətt */
+}
+
+.lang-btn {
+  background-color: #b9a99a7f;
+  border: none;
+  padding: 7px 9px;
+  font-size: 19px;
+  margin-left: 30px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.sunny-icon {
+  color: white;
+}
+
+.theme-img {
+  height: 47px;
+  transition: height 0.3s ease;
+}
+
+.sun {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Ekran 800px və daha az olanda */
+@media (max-width: 800px) {
+  .nav {
+    font-size: 17px;
+    padding: 8px 20px;
+  }
+  .theme-img {
+    height: 42px;
+  }
+  .nav a {
+    margin: 0 8px;
+  }
+}
+
+/* Ekran 500px və daha az olanda */
+@media (max-width: 500px) {
+  .nav {
+    font-size: 15px;
+    padding: 5px 10px;
+  }
+  .theme-img {
+    height: 38px;
+  }
+  .nav a {
+    margin: 0 6px;
+  }
+}
